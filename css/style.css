@@ -1,0 +1,218 @@
+
+* { margin: 0; padding: 0 }
+
+/* nav bar */
+#nav
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+/* Beginning Of home_page.php Style */
+
+/* logo image*/
+.logo
+{
+    margin-right: 10px
+}
+
+/* splash image */
+#splash
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 3%
+}
+
+/* sign put button */
+#home_sign_out
+{
+    margin-left: 800px;
+}
+
+/* news details card */
+#news_card
+{
+    max-width: 40%;
+    max-height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: inline;
+    float: left
+}
+
+/* news image */
+#home_news_image
+{
+    height: 100%
+}
+
+/* news details card width */
+#card_width
+{
+    width: 55ch
+}
+
+/* news title */
+.home_news_title
+{
+    overflow: hidden;
+    height: 30px;
+    text-transform: capitalize
+}
+
+/* news content */
+#home_news_content
+{
+    overflow: hidden;
+    height: 75px;
+    text-align: justify
+}
+
+/* End Of home_page.php */
+
+/* *** Part 2 *** */
+
+/* Beginning Of news_details.php Style */
+
+/* news details block */
+.news_details
+{
+    margin-left: 15%;
+    margin-top: 3%
+}
+
+/* news details image */
+#news_details_image
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5%;
+}
+
+/* news details title */
+.news_details_title
+{
+    color: dodgerblue;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* news details content */
+.news_details_content
+{
+    margin-right: 25%;
+    text-align: justify;
+    line-height: 30px;
+    border-left: 3px solid #f6214b;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+/* news details author and date */
+.news_details_author_date
+{
+    font-weight: bold
+}
+
+/* End Of news_details.php */
+
+/* *** Part 3 *** */
+
+/* Beginning Of admin_home.php Style */
+
+/* the page title */
+.admin_title
+{
+    color: dodgerblue;
+    font-weight: bold;
+    display: inline;
+    margin-left: 7.5%
+}
+
+/* add news button */
+#admin_add_news
+{
+    width: 15%;
+    float: right;
+    margin-right: 7.5%;
+    padding: 1%
+}
+
+/* news table */
+#admin_news_table
+{
+    table-layout:fixed;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* news table rows tr */
+table tr
+{
+    height:1em;
+    text-align: center;
+}
+
+/* news table columns td */
+table td
+{
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+/* edit news button */
+#admin_edit_button
+{
+    /*background-color: dodgerblue;
+    border: none*/
+}
+
+/* delete news button */
+#admin_delete_button
+{
+    /*background-color: crimson;
+    border: none*/
+}
+
+/* End Of admin_home.php */
+
+/* *** Part 4 *** */
+
+/* Beginning Of add_news.php Style */
+
+/* add news body */
+.add_news_body
+{
+    background-color: dodgerblue
+}
+
+/* add news form */
+#add_news_form
+{
+    width: 70%;
+    margin: 8% auto 3%;
+}
+
+/* End Of add_news.php */
+
+/* *** Part 5 *** */
+
+/* Beginning Of edit_news.php Style */
+
+/* edit news body */
+.edit_news_body
+{
+    background-color: dodgerblue
+}
+
+/* edit news form */
+#edit_news_form
+{
+    width: 70%;
+    margin: 4% auto 3%;
+}
